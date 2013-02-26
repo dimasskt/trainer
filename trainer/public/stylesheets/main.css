@@ -1,0 +1,54 @@
+
+
+.content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tableDiv 
+{
+	
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear
+{
+	margin-top: 1em;
+	margin-botton: 1em;
+}
+
+.addButton
+{
+	float: right;
+}
+
+.tablePagination
+{
+	
+	float: right;
+}
+
+
+.cardapioTable
+{
+	float:right;	
+}
+
+.cardapioForm
+{
+	float: left;
+}
+
+
+
+.formLogin
+{
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	
+	width: 30em;
+}
