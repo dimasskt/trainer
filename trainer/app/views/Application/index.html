@@ -18,7 +18,7 @@
     
     <div class="content">
     
-    	<div class="navbar">
+    <div class="navbar">
   <div class="navbar-inner">
     <div class="container">
  
@@ -38,74 +38,48 @@
  
  
 	<ul class="nav">
-  		<li><a href="#myModal" role="button" data-toggle="modal">Cadastre-se</a></li>
+  		<!--  <li><a href="#myModal" role="button" data-toggle="modal">Cadastre-se</a></li>-->
 	</ul>
-	
-		
     </div>
+    </div>
+  	</div>
+  	
+  	<div class="homeData">
+  	<div class="homeText">
+	    <h1>Receba novidades</h1>
+	    <label>
+	    Essa é a primeira ferramenta totalmente voltada </br>
+	    ao auxilio de personal trainers. Registre seu e-mail para</br>
+	    receber novidades sobre esse projeto que ainda está em</br>
+	    fase de desenvolvimento.</br></br>
+	    Seja um dos primeiros treinadores do Brasil a utilizar</br>
+	    essa ferramenta que visa auxiliar no diretamente no seu trabalho</br></br>
+	    </label>
+	    <input id="home-signup-email" type="text" placeholder="Email"></br>
+	    <input id="home-signup-button" class="btn btn-primary" type="submit" value="Receber novidades">
+	</div>
     
-    
-  </div>
-  
-  
-  
-  <form class="form-signin formLogin">
-        <h2 class="form-signin-heading">Seja Bem-vindo</h2>
-        <input type="text" class="input-block-level" placeholder="E-mail">
-        <input type="password" class="input-block-level" placeholder="Senha">
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Lembrar
-        </label>
-        <button class="btn btn-large btn-primary" type="submit">Entrar</button>
-  </form>
-  
-</div>
+    <div class="homeImages">
+    	<img src="@{'/public/images/TelaAluno.png'}" class="img-polaroid">
+    </div>
+  	</div>
+  	</div> <!-- fecha container -->
+  	<div class="midleBar">
+		<label>
+	    	<label>Acreditamos que o personal trainer é uma empresa que precisa de uma ferramenta para trabalhar. </br>
+	    	Através desse produto o treinador poderá ter um controle total do seu negócio e melhorar sua relacão com os alunos. e bla bla lba</br>
+	    	e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba </br>
+	    	e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba </br>
+	    	e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba e bla bla lba </br>
+	    	 
+	    	
+	    	
+	    	
+	    	</label>
+	    </label>
 
-
-
-
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Treinador</h3>
-  </div>
-  <div class="modal-body">
-
-
-
- 
-  <fieldset>
- #{form @Trainer.create() }
- 
-    <label>Nome</label>
-    <input type="text" id="name" name="name" placeholder="Digite seu nome" value="${name}">
-
-    <label>E-mail</label>
-    <input type="text" id="email" name="email" placeholder="Digite seu e-mail" value="${email}">
-    
-    <label>Senha</label>
-    <input type="password" id="pass" name="pass" placeholder="Digite sua senha" value="${pass}">
-
-    <label>Repita sua Senha</label>
-    <input type="password" id="pass2" name="pass2" placeholder="Digite sua senha novamente" value="${pass2}">
-
-        
-    
-  </fieldset>
-
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Cancelar</button>
-    <button type="submit" class="btn btn-primary">Cadastrar</button>
-  </div>
-  
-  #{/form}
-  
-</div>
-
-
-    	
-</div>        
+	   
+	</div>    	
+       
     </body>
 </html>
